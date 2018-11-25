@@ -1,0 +1,16 @@
+.product-details {
+}
+.product-details__content {
+  padding: 20px;
+}
+.product-details__images {
+  padding-top: 20px;
+}
+.product-details__image {
+  height: 70vh;
+  min-height: 500px;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
