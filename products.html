@@ -15,6 +15,10 @@
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
+
+    <!-- Swipper js -->
+    <link rel="stylesheet" href="vendor/swipper/swiper.min.css" />
+
     <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="styles/navbar.css" />
     <link rel="stylesheet" href="styles/product.css" />
@@ -77,16 +81,46 @@
 
     <div class="container navbar-margin product">
       <div class="row">
-        <div class="col-md-1 product__images">
-          <img class="product__image" src="assets/banner_image2.png" />
-          <img class="product__image" src="assets/banner_image2.png" />
-          <img class="product__image" src="assets/banner_image2.png" />
-          <img class="product__image" src="assets/banner_image2.png" />
-        </div>
         <div class="col-md-6">
-          <img class="product__focus" src="assets/banner_image2.png" />
+          <img class="product__focus" src="assets/product_slide1.png" />
+
+          <!-- Slider main container -->
+          <div class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img class="product__focus" src="assets/product_slide1.png" />
+              </div>
+              <div class="swiper-slide">
+                <img class="product__focus" src="assets/product_slide2.png" />
+              </div>
+              <div class="swiper-slide">
+                <img class="product__focus" src="assets/product_slide3.png" />
+              </div>
+              <div class="swiper-slide">
+                <img class="product__focus" src="assets/product_slide4.png" />
+              </div>
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
         </div>
-        <div class="col-md-5"></div>
+        <div class="col-md-1"></div>
+        <div class="col-md-5">
+          <h1 class="product__title">The Frontier Kettle</h1>
+          <h4 class="product__price">$2,100 USD</h4>
+
+          <p>
+            Whether your goal is to elicit the look, feel of a peaceful retreat
+            or a central gathering place, the aesthetic and function of a
+            Frontier<sup>®</sup> Kettle cannot be surpassed – even when not
+            burning wood, a Frontier<sup>®</sup> Kettle is a beautiful piece of
+            architecture standing simply on its own.
+          </p>
+        </div>
       </div>
     </div>
 
@@ -107,6 +141,24 @@
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"
     ></script>
+
+    <script src="vendor/swipper/swiper.min.js"></script>
+
+    <script>
+      var swiper = new Swiper(".swiper-container", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev"
+        }
+      });
+    </script>
+
     <script src="js/script.js"></script>
   </body>
 </html>
