@@ -1,0 +1,26 @@
+.contact__header {
+  font-weight: bold;
+  font-size: 3.5em;
+  margin-bottom: 30px;
+}
+.contact__header .gold::before {
+  content: "";
+  width: 160px;
+  height: 20px;
+  background: lightgray;
+  position: absolute;
+  top: 0.9em;
+  z-index: -1;
+}
+.contact__subheader {
+  font-size: 1.5em;
+  color: gray;
+  margin-bottom: 60px;
+}
+.contact h3 {
+  color: gray;
+  font-size: 1em;
+}
+.contact h4 {
+  font-weight: bold;
+}

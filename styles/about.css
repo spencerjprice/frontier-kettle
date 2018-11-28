@@ -1,3 +1,177 @@
-.about__column {
-  padding: 0px 20px 20px 20px;
+.about h1 {
+  margin-bottom: 40px;
+}
+.about p {
+  margin: 30px 0px 60px;
+}
+
+.about__highlights {
+  display: grid;
+  grid-template-columns: repeat(12, calc(100% / 12));
+  grid-template-rows: repeat(10, 150px);
+  margin: 0px -15px;
+}
+.about__highlight {
+  margin: 15px;
+  cursor: pointer;
+  position: relative;
+}
+.about__highlight-inner {
+  background: rgba(64, 64, 73, 0);
+  width: 100%;
+  height: 100%;
+}
+.about__highlight-inner:hover {
+  background: rgba(64, 64, 73, 0.15);
+}
+
+.about__highlight--one {
+  background-image: url("https://images.unsplash.com/photo-1414342952040-4c09ded92ce9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=537dccdb3067c177fb95981cf32c45ab&auto=format&fit=crop&w=1570&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.about__highlight--two {
+  background-image: url("https://images.unsplash.com/photo-1507497806295-753c4108560c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=366678457907b96e7efb882f6e88c69b&auto=format&fit=crop&w=666&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+.about__highlight--three {
+  background-image: url("../assets/Steele\ Bison\ SLC\ Antelope\ Island.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-row-start: 5;
+  grid-row-end: 7;
+}
+.about__highlight--four {
+  background-image: url("https://images.unsplash.com/photo-1507497642206-b5c42198f2df?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=310c3c131b65c98b9de038bd1b02a5a9&auto=format&fit=crop&w=1653&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-row-start: 7;
+  grid-row-end: 9;
+}
+.about__highlight--five {
+  background-image: url("https://images.unsplash.com/photo-1464747108843-cec40b4f0157?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=65ead81ececaa7560cb70268ff6e7608&auto=format&fit=crop&w=1651&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-row-start: 9;
+  grid-row-end: 11;
+}
+
+.about__highlight-titles {
+  color: #fff;
+  padding: 15px;
+}
+.about__highlight-titles h3 {
+  margin: 0;
+  font-size: 36px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.39);
+  text-transform: uppercase;
+}
+.about__highlight-titles h4 {
+  margin: 0;
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.39);
+}
+
+@media (min-width: 768px) {
+  .about__highlights {
+    display: grid;
+    grid-template-columns: repeat(12, calc(100% / 12));
+    grid-template-rows: repeat(6, calc((100vw - 120px) / 6));
+  }
+  .about__highlight--one {
+    grid-column-start: 1;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 4;
+  }
+  .about__highlight--two {
+    grid-column-start: 8;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 4;
+  }
+  .about__highlight--three {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 10;
+  }
+  .about__highlight--four {
+    grid-column-start: 6;
+    grid-column-end: 13;
+    grid-row-start: 4;
+    grid-row-end: 6;
+  }
+  .about__highlight--five {
+    grid-column-start: 6;
+    grid-column-end: 13;
+    grid-row-start: 6;
+    grid-row-end: 8;
+  }
+}
+@media (min-width: 992px) {
+  .about__highlights {
+    display: grid;
+    grid-template-columns: repeat(12, calc(100% / 12));
+    grid-template-rows: repeat(7, calc((100vw - 120px) / 12));
+  }
+  .about__highlight--one {
+    grid-column-start: 1;
+    grid-column-end: 10;
+    grid-row-start: 1;
+    grid-row-end: 4;
+  }
+  .about__highlight--two {
+    grid-column-start: 10;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 8;
+  }
+  .about__highlight--three {
+    grid-column-start: 6;
+    grid-column-end: 10;
+    grid-row-start: 4;
+    grid-row-end: 8;
+  }
+  .about__highlight--four {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 6;
+  }
+  .about__highlight--five {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 6;
+    grid-row-end: 8;
+  }
+}
+@media (min-width: 1200px) {
+  .about__highlights {
+    display: grid;
+    grid-template-columns: repeat(12, calc(100% / 12));
+    grid-template-rows: repeat(7, calc((100vw - 160px) / 12));
+  }
 }
