@@ -8,6 +8,25 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -77,19 +96,62 @@
 
     <div class="container navbar-margin contact">
       <h1 class="contact__header">
-        <span class="gold">Don't be a stranger</span><br />
+        <span class="gold brand__bar">Don't be a stranger</span><br />
         just say hello.
       </h1>
       <div class="row">
         <div class="col-md-6">
           <h2 class="contact__subheader">
-            Feel free to get in touch with me. Fusce consectetur fermentum
-            ullamcorper. Vivamus sit amet velit lectus.
+            Feel free to get in touch with me. Call or email us for an accurate, best rate shipping quote as well as product information. 
+
           </h2>
+
           <h3>Email</h3>
-          <h4>some-email@gmail.com</h4>
+          <h4>scott@frontierkettle.com</h4>
+
+          <h3>Feel like talking?</h3>
+          <h4>(801) 864 3535</h4>
         </div>
-        <div class="col-md-row"></div>
+        <div class="col-md-6">
+          <form class="contact__form" action="mailto:spencerjprice@gmail.com" method="post" enctype="text/plain">
+            <div class="form-group">
+              <label for="contactFormName">Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="contactFormName"
+                placeholder="John Doe"
+              />
+            </div>
+            <div class="form-group">
+              <label for="contactFormEmail">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="contactFormEmail"
+                placeholder="name@example.com"
+              />
+            </div>
+            <div class="form-group">
+              <label for="contactFormSubject">Subject</label>
+              <input
+                type="subject"
+                class="form-control"
+                id="contactFormSubject"
+                placeholder="Black Frontier Kettle Shipping Question"
+              />
+            </div>
+            <div class="form-group">
+              <label for="contactFormDescription">Description</label>
+              <textarea
+                class="form-control"
+                id="contactFormDescription"
+                rows="5"
+              ></textarea>
+            </div>
+            <button type="submit" value="Send" class="btn brand__button">Send</button>
+          </form>
+        </div>
       </div>
     </div>
 
