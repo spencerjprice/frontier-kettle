@@ -28,10 +28,10 @@
 }
 
 .about__highlight--one {
-  background-image: url("https://images.unsplash.com/photo-1414342952040-4c09ded92ce9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=537dccdb3067c177fb95981cf32c45ab&auto=format&fit=crop&w=1570&q=80");
+  background-image: url("../assets/Grate\ Spark.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   grid-column-start: 1;
   grid-column-end: 13;
   grid-row-start: 1;
@@ -58,7 +58,7 @@
   grid-row-end: 7;
 }
 .about__highlight--four {
-  background-image: url("https://images.unsplash.com/photo-1507497642206-b5c42198f2df?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=310c3c131b65c98b9de038bd1b02a5a9&auto=format&fit=crop&w=1653&q=80");
+  background-image: url("../assets/Handle\ Gusset\ Shop.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -68,7 +68,7 @@
   grid-row-end: 9;
 }
 .about__highlight--five {
-  background-image: url("https://images.unsplash.com/photo-1464747108843-cec40b4f0157?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=65ead81ececaa7560cb70268ff6e7608&auto=format&fit=crop&w=1651&q=80");
+  background-image: url("../assets/DeHaan\ Bender.JPG");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

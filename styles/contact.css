@@ -20,3 +20,7 @@
 .contact__form {
   margin-bottom: 100px;
 }
+.contact svg {
+  height: 200px;
+  margin: 20px 0px;
+}

@@ -60,7 +60,7 @@ sup {
 .brand__button:active {
   transform: translateY(1px);
 }
-.brand__bar::before {
+/* .brand__bar::before {
   content: "";
   width: 160px;
   height: 20px;
@@ -68,4 +68,4 @@ sup {
   position: absolute;
   top: 0.9em;
   z-index: -1;
-}
+} */
