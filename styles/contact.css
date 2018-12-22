@@ -1,7 +1,12 @@
+.contact__top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
 .contact__header {
   font-weight: bold;
   font-size: 3.5em;
-  margin-bottom: 60px;
 }
 
 .contact__subheader {
@@ -21,6 +26,7 @@
   margin-bottom: 100px;
 }
 .contact svg {
-  height: 200px;
-  margin: 20px 0px;
+  height: 160px;
+  min-width: 100px;
+  margin: 10px 0px;
 }
