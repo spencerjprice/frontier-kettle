@@ -60,6 +60,12 @@ sup {
 .brand__button:active {
   transform: translateY(1px);
 }
+.rights {
+  font-weight: bold;
+  color: #a8764b;
+  margin-bottom: 20px;
+  text-align: center;
+}
 /* .brand__bar::before {
   content: "";
   width: 160px;

@@ -27,12 +27,12 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
-  animation: fadeInUp 1500ms forwards;
+  animation: fadeInUp 2000ms forwards;
 }
 .home__info {
   opacity: 0;
   animation: fadeIn 1s forwards;
-  animation-delay: 1500ms;
+  animation-delay: 2000ms;
   padding: 60px;
 }
 .home__info p {
